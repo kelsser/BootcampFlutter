@@ -1,17 +1,16 @@
-# BootcampFlutter
+# bootcamp_flutter
 
-Cada participante devará fazer um fork do repositório, e ao final do Bootcamp deverá enviar o usuário do Git com repositório publico para avaliarmos a flutter.<br><br>
+A new Flutter project.
 
-## API TheMovieDB
+## Getting Started
 
-### Base URL
-http://api.themoviedb.org/3/
+This project is a starting point for a Flutter application.
 
-### Category
-/movie/top_rated
+A few resources to get you started if this is your first Flutter project:
 
-### API KEY
-api_key=3c6b7b5163f500336234a349b8b17a74
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-
-
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
