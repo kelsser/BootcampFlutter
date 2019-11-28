@@ -1,6 +1,6 @@
-import 'package:bootcamp_flutter/movie_edit_body.dart';
 import 'package:flutter/material.dart';
 import 'movie.dart';
+import 'movie_edit.dart';
 
 class MovieDetails extends StatefulWidget {
   final Movie movie;
@@ -19,7 +19,8 @@ class _MovieDetailsState extends State<MovieDetails> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Scaffold(
+      body: Container(
       color: Colors.black,
       padding: EdgeInsets.symmetric(horizontal: 15, vertical: 10),
       child: Container(
@@ -104,13 +105,12 @@ class _MovieDetailsState extends State<MovieDetails> {
                   ),
                 ),
                 onPressed: () {
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => MovieEditBody(movie)));
-                  //Ele crasha indo pra edição e não consegui entender o motivo
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => MovieEdit(movie)));
                 },
               ),
             )
           ],
       ))
-    );
+    ));
   }
 }

@@ -1,7 +1,7 @@
+import 'package:bootcamp_flutter/movie_edit_body.dart';
 import 'package:flutter/material.dart';
 
 import 'movie.dart';
-import 'movie_details.dart';
 
 class MovieEdit extends StatefulWidget {
   final Movie movie;
@@ -45,7 +45,7 @@ class _MovieEditState extends State<MovieEdit> {
             ),
           ),
           SliverFillRemaining(
-            child: MovieDetails(movie),
+            child: MovieEditBody(movie),
           ),
         ],
       ),

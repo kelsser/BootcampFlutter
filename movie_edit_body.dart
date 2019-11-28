@@ -103,7 +103,7 @@ class _MovieEditBodyState extends State<MovieEditBody> {
             ),
             TextField(
               controller: _yearController,
-              maxLength: 23, //Isso fez o spacing aumentar e não entendi porque
+              maxLength: 23,
               decoration: InputDecoration(
                 fillColor: Colors.white,
                 filled: true,

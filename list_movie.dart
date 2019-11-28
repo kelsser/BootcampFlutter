@@ -1,4 +1,5 @@
 import 'package:bootcamp_flutter/movie.dart';
+import 'package:bootcamp_flutter/movie_details.dart';
 import 'package:bootcamp_flutter/movie_edit.dart';
 import 'package:bootcamp_flutter/widgets/movie_cell.dart';
 import 'package:bootcamp_flutter/widgets/movie_title.dart';
@@ -49,7 +50,7 @@ class _MovieListState extends State<MovieList> {
                       onPressed: () async {
                         Movie result = await Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (context) => MovieEdit(movies[i]),
+                            builder: (context) => MovieDetails(movies[i]),
                           ),
                         );
                         if(result != null) {
